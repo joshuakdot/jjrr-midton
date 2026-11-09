@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --dark: var(--dark) --light:var(--dark) --background:var(--dark) --accent:var(--dark) --text:var(--dark) --line:var(--dark)
+}
+
+body {
+    background-color: var(--background);
+    font-family: "Arial, Helvetica, sans-serif";
+    color: var(--text);
+    line-height: 1.6;
+    max-width: 52rems;
+    margin: 0 auto;
+    padding: 0 1.5rem 3rems;
+}
+
+h1,
+h2,
+h3, {
+    color: var(dark);
+    line-height: 1.2;
+
+}
+header p{
+    padding: 1.5rem 0 0.5rem;
+}
+
+header p {margin 0 0 1rem;
+}
+
+nav{
+    background-color: var(--dark);
+
+    ui{
+        list-style-type:none;
+        margin: 0
+    }
+}
+nav {}
